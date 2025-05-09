@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.hero-content {
+    flex: 1;
+    width: 50%;
+}
+
+.hero-img {
+    width: 50%;
+    height: auto;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #f4b400;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
