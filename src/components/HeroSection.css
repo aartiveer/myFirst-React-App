@@ -7,12 +7,16 @@
 
 .hero-content {
     flex: 1;
-    width: 50%;
+    width: 50%;    
 }
 
 .hero-img {
     width: 50%;
     height: auto;
+    display: flex;
+    margin-right: 0%;
+    margin-left: 50%;
+    
 }
 
 .btn {
