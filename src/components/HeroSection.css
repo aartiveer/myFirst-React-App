@@ -13,8 +13,6 @@
 .hero-img {
     width: 50%;
     height: auto;
-    align-items: flex-end;
-    justify-content: space-between;
 }
 
 .btn {

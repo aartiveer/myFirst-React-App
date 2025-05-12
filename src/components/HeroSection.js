@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
+import women from'../resources/Women.jpg'
 
 const HeroSection = () => (
     <section className='Hero'>
@@ -8,7 +9,7 @@ const HeroSection = () => (
             <p>Your Gateway to Embedded L</p>
             <button className='btn'>Get Started</button>
         </div>
-        <img src={`${process.env.PUBLIC_URL}/Women.jpg`}  alt='Working Women' className='hero-img' />
+        <img src={women} alt='Working Women' className='hero-img' />
     </section>
 );
 
