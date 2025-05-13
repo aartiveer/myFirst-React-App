@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
-import women from'../resources/Women.jpg'
+import women from'../resources/Women.png'
 
 const HeroSection = () => (
     <section className='Hero'>
@@ -9,7 +9,12 @@ const HeroSection = () => (
             <p>Your Gateway to Embedded </p>
             <button className='btn'>Get Started →</button>
         </div>
-        <img src={women} alt='Working Women' className='hero-img' />
+        <img 
+        src={women} 
+        loading='lazy'
+        srcSet={`${women} 320w, ${women} 480w, ${women} 800w`}
+        sizes='(max-width: 768px) 30rem, 50rem'
+        alt='Working Women' />
     </section>
 );
 
